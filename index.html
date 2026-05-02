@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supriya Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Supriya</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <img src="https://via.placeholder.com/150" alt="Profile" style="border-radius:50%; margin-bottom:20px;">
+    <h1>Dakkata Supriya Reddy</h1>
+    <p>Aspiring Software Developer</p>
+    <button onclick="scrollToSection('contact')">Contact Me</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div>
+        <p>
+            I am a B.Tech Information Technology student with a strong interest in programming and software development.
+            I am looking for opportunities to enhance my technical skills and gain practical experience.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>HTML, CSS</li>
+                <li>SQL, DBMS</li>
+                <li>Git, VS Code</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>Console-based Python project with add, search, delete features.</p>
+    </div>
+
+    <div class="project">
+        <h3>Student Result Management System</h3>
+        <p>Automatically calculates marks, percentage, and grades.</p>
+    </div>
+
+    <div class="project">
+        <h3>Weather Report Application</h3>
+        <p>Fetches real-time weather using APIs.</p>
+    </div>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Built using HTML and CSS.</p>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>Data Analytics with Python – NPTEL</li>
+        <li>Cyber Awareness – CyberWalNet</li>
+        <li>Data Visualization – FutureSkills</li>
+        <li>Artificial Intelligence – Elewayte</li>
+    </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>📍 Visakhapatnam</p>
+    <p>📧 supriyadakkata@gmail.com</p>
+
+    <p>
+        <a href="https://github.com/DakkataSupriya" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Supriya Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
